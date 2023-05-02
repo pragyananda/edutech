@@ -1,0 +1,24 @@
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="portfolio.html" class="menu-link" for="carousel-section">Work</a></li>
+        <li><a href="style-guide.html" class="menu-link" for="services-section">Style Guide</a>
+        </li>
+        <li class="dropdown">
+            <a href="{% url 'course' %}" class="dropdown-toggle menu-link" 
+            id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
+            Courses <b class="caret"></b></a>
+            <ul class="dropdown-menu"aria-labelledby="dropdownMenuButton">
+                <li><a href="{% url 'course' %}">Free Courses</a></li>
+                <li><a href="{% url 'course' %}">Paid Courses</a></li>
+            </ul>
+        </li>
+        <li><a href="about-us.html" class="menu-link" for="videos-section">About</a></li>
+        <li><a href="{% url 'course' %}" class="menu-link" for="features-section">Blog</a></li>
+        <li><a href="contact-us.html" class="menu-link" for="pricing-section">Contact</a></li>
+        <li><a href="https://creativemarket.com/Dorin007/1659604-Maker-creative-agency-template"
+                class="meniu-button custom-button header" for="newsletter-section">Start your carrer</a>
+        </li>
+    </ul>
+</div>
+

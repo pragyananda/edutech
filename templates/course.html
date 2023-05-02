@@ -1,0 +1,237 @@
+{%extends 'base.html'%}
+{%block title%}Blog{%endblock%}
+{%block content%}
+
+<body class="blog">
+    <div class="gtco-loader"></div>
+    <header>
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="homepage-hero-module">
+            <nav id="top-nav" class="navbar navbar-default navbar-fixed-top navbar-scroll-changed fixed-header"
+                role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="mobile-button navicon-button navbar-toggle x" data-toggle="collapse"
+                            data-target=".navbar-ex1-collapse">
+                            <div class="navicon"></div>
+                        </a>
+                        <div class="brand-name">
+                            <a data-letters="Maker" href="index-2.html" class="brand link--brand">Maker</a>
+                        </div>
+                    </div>
+                    {%include "nav.html"%}
+                    <!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="blog-body">
+        <div class="container">
+            <div class="row">
+                <div class="mt col-4-12 blog-main-title">
+                    <h1 class="title">Courses</h1>
+                </div>
+
+                <div class="category-meniu">
+                    <p class="category-title active" data-filter="all">all<span>&nbsp; |&nbsp; </span></p>
+                    <p class="category-title" data-filter="brand">Short term<span>&nbsp; |&nbsp; </span></p>
+                    <p class="category-title" data-filter="design">Long term</p>
+                </div>
+
+                <div class="blog-article col-md-6 animate-box" data-cat="design">
+                    <a href="#">
+                        <div class="img">
+                            <img class="img-responsive" src="/static/images/blog-article-1.jpg" alt="Article Image">
+                        </div>
+                    </a>
+                    <div class="title">
+                        <h2><a href="article-page.html">How to find a day job that doesn't drain your energy</a></h2>
+                        <div class="author">by Dorin Andrei <span class="date">| 27 nov 2017</span></div>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dicta, cupiditate sunt
+                            suscipit tenetur modi, adipisci. Inventore aliquid saepe totam aut eaque minus</p>
+                    </div>
+                    <a href="#">
+                        <div class="article-type" data-filter="design">
+                            <span>Design</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-article col-md-6 animate-box" data-cat="design">
+                    <a href="#">
+                        <div class="img">
+                            <img class="img-responsive" src="/static/images/blog-article-2.jpg" alt="Article Image">
+                        </div>
+                    </a>
+                    <div class="title">
+                        <h2><a href="article-page.html">How to find a day job that doesn't drain your energy</a></h2>
+                        <div class="author">by Dorin Andrei <span class="date">| 27 nov 2017</span></div>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dicta, cupiditate sunt
+                            suscipit tenetur modi, adipisci. Inventore aliquid saepe totam aut eaque minus</p>
+                    </div>
+                    <a href="#">
+                        <div class="article-type" data-filter="design">
+                            <span>Design</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-article col-md-6 animate-box" data-cat="design">
+                    <a href="#">
+                        <div class="img">
+                            <img class="img-responsive" src="/static/images/blog-article-3.jpg" alt="Article Image">
+                        </div>
+                    </a>
+                    <div class="title">
+                        <h2><a href="article-page.html">How to find a day job that doesn't drain your energy</a></h2>
+                        <div class="author">by Dorin Andrei <span class="date">| 27 nov 2017</span></div>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dicta, cupiditate sunt
+                            suscipit tenetur modi, adipisci. Inventore aliquid saepe totam aut eaque minus</p>
+                    </div>
+                    <a href="#">
+                        <div class="article-type" data-filter="design">
+                            <span>Design</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-article col-md-6 animate-box" data-cat="design">
+                    <a href="#">
+                        <div class="img">
+                            <img class="img-responsive" src="/static/images/blog-article-4.jpg" alt="Article Image">
+                        </div>
+                    </a>
+                    <div class="title">
+                        <h2><a href="article-page.html">How to find a day job that doesn't drain your energy</a></h2>
+                        <div class="author">by Dorin Andrei <span class="date">| 27 nov 2017</span></div>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dicta, cupiditate sunt
+                            suscipit tenetur modi, adipisci. Inventore aliquid saepe totam aut eaque minus</p>
+                    </div>
+                    <a href="#">
+                        <div class="article-type" data-filter="design">
+                            <span>Design</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-article col-md-6 animate-box" data-cat="design">
+                    <a href="#">
+                        <div class="img">
+                            <img class="img-responsive" src="/static/images/blog-article-5.jpg" alt="Article Image">
+                        </div>
+                    </a>
+                    <div class="title">
+                        <h2><a href="article-page.html">How to find a day job that doesn't drain your energy</a></h2>
+                        <div class="author">by Dorin Andrei <span class="date">| 27 nov 2017</span></div>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dicta, cupiditate sunt
+                            suscipit tenetur modi, adipisci. Inventore aliquid saepe totam aut eaque minus</p>
+                    </div>
+                    <a href="#">
+                        <div class="article-type" data-filter="design">
+                            <span>Design</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-article col-md-6 animate-box" data-cat="design">
+                    <a href="#">
+                        <div class="img">
+                            <img class="img-responsive" src="/static/images/blog-article-6.jpg" alt="Article Image">
+                        </div>
+                    </a>
+                    <div class="title">
+                        <h2><a href="article-page.html">How to find a day job that doesn't drain your energy</a></h2>
+                        <div class="author">by Dorin Andrei <span class="date">| 27 nov 2017</span></div>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dicta, cupiditate sunt
+                            suscipit tenetur modi, adipisci. Inventore aliquid saepe totam aut eaque minus</p>
+                    </div>
+                    <a href="#">
+                        <div class="article-type" data-filter="design">
+                            <span>Design</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-article col-md-6 animate-box" data-cat="design">
+                    <a href="#">
+                        <div class="img">
+                            <img class="img-responsive" src="/static/images/blog-article-1.jpg" alt="Article Image">
+                        </div>
+                    </a>
+                    <div class="title">
+                        <h2><a href="article-page.html">How to find a day job that doesn't drain your energy</a></h2>
+                        <div class="author">by Dorin Andrei <span class="date">| 27 nov 2017</span></div>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dicta, cupiditate sunt
+                            suscipit tenetur modi, adipisci. Inventore aliquid saepe totam aut eaque minus</p>
+                    </div>
+                    <a href="#">
+                        <div class="article-type" data-filter="design">
+                            <span>Design</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-article col-md-6 animate-box" data-cat="design">
+                    <a href="#">
+                        <div class="img">
+                            <img class="img-responsive" src="/static/images/blog-article-2.jpg" alt="Article Image">
+                        </div>
+                    </a>
+                    <div class="title">
+                        <h2><a href="article-page.html">How to find a day job that doesn't drain your energy</a></h2>
+                        <div class="author">by Dorin Andrei <span class="date">| 27 nov 2017</span></div>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dicta, cupiditate sunt
+                            suscipit tenetur modi, adipisci. Inventore aliquid saepe totam aut eaque minus</p>
+                    </div>
+                    <a href="#">
+                        <div class="article-type" data-filter="design">
+                            <span>Design</span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="load-more col-4-12">
+                    <button class="custom-button triangular-button portofolio">Load More</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="main-content container-fluid">
+        <section class="buy-maker">
+            <div class="container">
+                <div class="row">
+                    <div class="buy-maker-elements col-4-12">
+                        <div class="buy-maker-info hidden-xs">
+                            <h3>Need a professional Wordpress template?<br>
+                                We offer Maker for that, for only $30.</h3>
+                        </div>
+                        <div class="buy-maker-info hidden-sm hidden-md hidden-lg">
+                            <h3 class="advertise-heading">Getting started</h3>
+                            <p>So easy to customize it, Maker can become your beautiful website. <br> Start today for
+                                just 30$.</p>
+                        </div>
+                        <div class="call-to-action">
+                            <a href="https://creativemarket.com/Dorin007/1659604-Maker-creative-agency-template"
+                                class="buy-now">Buy for only $30</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    {%endblock%}
