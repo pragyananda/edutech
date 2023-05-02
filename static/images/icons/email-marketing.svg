@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>mail-open</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="mail-open" stroke="#ed5f43" stroke-width="2">
+            <g transform="translate(1.000000, 1.000000)">
+                <path d="M30,28.9805 C30,29.5335 29.553,29.9805 29,29.9805 L1,29.9805 C0.447,29.9805 0,29.5335 0,28.9805 L0,8.9805 C0,8.4275 0.359,8.3555 1,7.9805 C1,7.9805 12.874,1.1055 14,0.4805 C15.126,-0.1445 14.797,-0.1755 16,0.4805 C16.947,0.9975 29,7.9805 29,7.9805 C29.563,8.3085 30,8.4275 30,8.9805 L30,28.9805 L30,28.9805 Z" id="Stroke-1"></path>
+                <path d="M3,10.9805 L14,21.9805 C14.834,22.8145 15.167,22.8135 16,21.9805 L27,10.9805" id="Stroke-3"></path>
+                <path d="M8.5,21.4805 L3,26.9805" id="Stroke-5"></path>
+                <path d="M27,26.9805 L21.5,21.4805" id="Stroke-7"></path>
+            </g>
+        </g>
+    </g>
+</svg>

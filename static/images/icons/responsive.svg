@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>imac</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="imac" stroke="#ed5f43" stroke-width="2">
+            <g transform="translate(1.000000, 1.000000)">
+                <path d="M30,23 C30,23.553 29.553,24 29,24 L1,24 C0.447,24 0,23.553 0,23 L0,1 C0,0.447 0.447,0 1,0 L29,0 C29.553,0 30,0.447 30,1 L30,23 L30,23 Z" id="Stroke-1"></path>
+                <path d="M8,30 L22,30" id="Stroke-3"></path>
+                <path d="M13,30 L13,27" id="Stroke-5"></path>
+                <path d="M17,30 L17,27" id="Stroke-7"></path>
+                <path d="M15,21 L15,21" id="Stroke-8"></path>
+                <path d="M3,18 L30,18" id="Stroke-11"></path>
+            </g>
+        </g>
+    </g>
+</svg>
