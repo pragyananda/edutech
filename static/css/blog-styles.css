@@ -487,15 +487,15 @@ header .homepage-hero-module .navbar-default .brand {
 }
 
 header .homepage-hero-module .navbar-default .link--brand {
-    overflow: hidden;
-    color: transparent;
+    /* overflow: hidden;
+    color: transparent; */
     text-transform: capitalize
 }
 
-header .homepage-hero-module .navbar-default .link--brand:hover {
+/* header .homepage-hero-module .navbar-default .link--brand:hover {
     color: transparent;
     text-decoration: none
-}
+} */
 
 header .homepage-hero-module .navbar-default .link--brand::before {
     content: attr(data-letters);
