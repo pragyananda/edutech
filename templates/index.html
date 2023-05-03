@@ -1,34 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-
-<!-- Mirrored from maker.dragosisme.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 07:03:23 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maker Templates - App </title>
-    <link rel="stylesheet" href="/static/css/animate.css">
-    <link rel="stylesheet" href="/static/css/styles.css">
-    <link rel="stylesheet" href="/static/css/slick.css">
-    <link rel="stylesheet" href="/static/css/slick-theme.css">
-    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	<!-- Hotjar Tracking Code for http://maker.dragosisme.com/ -->
-	<script>
-		(function(h,o,t,j,a,r){
-			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-			h._hjSettings={hjid:1224268,hjsv:6};
-			a=o.getElementsByTagName('head')[0];
-			r=o.createElement('script');r.async=1;
-			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-			a.appendChild(r);
-		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
-</head>
+{%extends "base.html"%}
+{%block content %}
 
 <body class="home-page">
     <div class="gtco-loader"></div>
@@ -37,11 +8,13 @@
         <div class="homepage-hero-module" data-type="background">
             <div class="overlay"></div>
             <div class="hero-overlay">
-                <nav id="top-nav" class="navbar navbar-default navbar-fixed-top navbar-scroll-changed" role="navigation">
+                <nav id="top-nav" class="navbar navbar-default navbar-fixed-top navbar-scroll-changed"
+                    role="navigation">
                     <div class="container-fluid">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <a class="mobile-button navicon-button navbar-toggle x" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <a class="mobile-button navicon-button navbar-toggle x" data-toggle="collapse"
+                                data-target=".navbar-ex1-collapse">
                                 <div class="navicon"></div>
                             </a>
                             <div class="brand-name">
@@ -49,25 +22,17 @@
                             </div>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse navbar-ex1-collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                                <!-- <li><a href="portfolio.html" class="menu-link" for="carousel-section">Work</a></li> -->
-                                <!-- <li><a href="style-guide.html" class="menu-link" for="services-section">Style Guide</a></li> -->
-                                <li><a href="about-us.html" class="menu-link" for="videos-section">About</a></li>
-                                <!-- <li><a href="blog.html" class="menu-link" for="features-section">Blog</a></li> -->
-                                <li><a href="contact-us.html" class="menu-link" for="pricing-section">Contact</a></li>
-                                <li><a href="https://creativemarket.com/Dorin007/1659604-Maker-creative-agency-template" class="meniu-button custom-button header" for="newsletter-section">Buy Now</a></li>
-                            </ul>
-                        </div>
+                        {%include "nav.html"%}
                         <!-- /.navbar-collapse -->
                     </div>
                 </nav>
                 <div class="jumbotron-container clearfix">
                     <div class="jumbotron-description col-md-12">
                         <h1 style="opacity: 0;" class="jumbotron-title animate-box-home">Learn Data Science</h1>
-                        <p style="opacity: 0;" class="jumbotron-text animate-box-home">Find all Data Science Content On a Single <br> Platform </p>
+                        <p style="opacity: 0;" class="jumbotron-text animate-box-home">Find all Data Science Content On
+                            a Single <br> Platform </p>
                         <button style="opacity: 0;" class="jumbotron-button btn-p triangular-button animate-box-home">
-                           Start Your Career
+                            Start Your Career
                         </button>
                     </div>
                 </div>
@@ -76,54 +41,36 @@
     </header>
 
 
-
-
-
     <div class="main-content container-fluid">
         <div class="row">
             <div class="carousel col-md-12 col-sm-12 col-xs-12">
                 <div class="partners-logo">
                     <div class="partners-logos" id="photos-section">
-                        <div class="photo-wrapper">
+                        <div class="photo-wrapper"style="width:100px;">
                             <div>
                                 <img class="img-responsive photo" src="/static/images/udemy-logo.png" alt="">
                             </div>
                         </div>
-                        <div class="photo-wrapper">
+                        <div class="photo-wrapper"style="width:100px;">
                             <div>
                                 <img class="img-responsive photo" src="/static/images/coursera-logo.png" alt="">
                             </div>
                         </div>
-                        <div class="photo-wrapper">
+                        <div class="photo-wrapper"style="width:100px;">
                             <div>
                                 <img class="img-responsive photo" src="/static/images/upgrad-logo.png" alt="">
                             </div>
                         </div>
-                        <div class="photo-wrapper">
+                        <div class="photo-wrapper"style="width:100px;">
                             <div>
                                 <img class="img-responsive photo" src="/static/images/edx-logo.jpg"  alt="">
                             </div>
                         </div>
-                        <div class="photo-wrapper">
+                        <div class="photo-wrapper"style="width:100px;">
                             <div>
                                 <img class="img-responsive photo" src="/static/images/365-logo.jpg"  alt="">
                             </div>
                         </div>
-                        <!-- <div class="photo-wrapper">
-                            <div>
-                                <img class="img-responsive photo" src="/static/images/atlassian-logo.png" alt="">
-                            </div>
-                        </div> -->
-                        <!-- <div class="photo-wrapper">
-                            <div>
-                                <img class="img-responsive photo" src="/static/images/atlassian-logo.png" alt="">
-                            </div>
-                        </div> -->
-                        <!-- <div class="photo-wrapper">
-                            <div>
-                                <img class="img-responsive photo" src="/static/images/atlassian-logo.png" alt="">
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -139,7 +86,8 @@
                             <h3 class="advertise-heading">A few things we can do extremely well</h3>
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2 subtext">
-                                    <p class="advertise-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    <p class="advertise-description"> Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor incididunt
                                         ut labore et dolore magna aliqua.</p>
                                 </div>
                             </div>
@@ -151,23 +99,28 @@
                                 <img class="svg" src="/static/images/icons/ui-design.svg" alt="ui-design icon">
                                 <div class="service-post">
                                     <h4>UI/UX Design</h4>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia,
                                         there live the blind texts.</p>
                                 </div>
                             </div>
                             <div class="box-services animate-box" data-animate-effect="fadeInLeft" style="opacity: 0">
-                                <img class="svg" src="/static/images/icons/video-production.svg" alt="video-production icon">
+                                <img class="svg" src="/static/images/icons/video-production.svg"
+                                    alt="video-production icon">
                                 <div class="service-post">
                                     <h4>Video Production</h4>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia,
                                         there live the blind texts.</p>
                                 </div>
                             </div>
                             <div class="box-services animate-box" data-animate-effect="fadeInLeft" style="opacity: 0">
-                                <img class="svg" src="/static/images/icons/brand-identity.svg" alt="brand-identity icon">
+                                <img class="svg" src="/static/images/icons/brand-identity.svg"
+                                    alt="brand-identity icon">
                                 <div class="service-post">
                                     <h4>Brand Identity</h4>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia,
                                         there live the blind texts.</p>
                                 </div>
                             </div>
@@ -177,7 +130,8 @@
                                 <img class="svg" src="/static/images/icons/ruler-pencil.svg" alt="ruler icon">
                                 <div class="service-post">
                                     <h4>Website / App Design</h4>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia,
                                         there live the blind texts.</p>
                                 </div>
                             </div>
@@ -185,15 +139,18 @@
                                 <img class="svg" src="/static/images/icons/typography.svg" alt="typography icon">
                                 <div class="service-post">
                                     <h4>Typography</h4>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia,
                                         there live the blind texts.</p>
                                 </div>
                             </div>
                             <div class="box-services animate-box" data-animate-effect="fadeInLeft" style="opacity: 0">
-                                <img class="svg" src="/static/images/icons/email-marketing.svg" alt="content-writing icon">
+                                <img class="svg" src="/static/images/icons/email-marketing.svg"
+                                    alt="content-writing icon">
                                 <div class="service-post">
                                     <h4>Email marketing campaigns</h4>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia,
                                         there live the blind texts.</p>
                                 </div>
                             </div>
@@ -212,16 +169,19 @@
                                 <img class="img-responsive laptop-img2" src="/static/images/termene.jpg" alt="">
                                 <div class="wrap-img-mob">
                                     <img class="img-responsive mobile-img1" src="/static/images/mobile-site.png" alt="">
-                                    <img class="img-responsive mobile-img2" src="/static/images/mobile-termene.jpg" alt="">
+                                    <img class="img-responsive mobile-img2" src="/static/images/mobile-termene.jpg"
+                                        alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-5 col-md-pull-7 margins">
                             <div class="mt">
                                 <h3 class="portfolio-title">Responsive by design guaranteed</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
                                     there live the blind texts.</p>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                                    language
                                     ocean. </p>
                                 <div class="portofolio-button">
                                     <button class="custom-button triangular-button portofolio"> VIEW PORTFOLIO </button>
@@ -235,13 +195,16 @@
                 <div class="row items-order">
                     <div class="col-md-12 flex-alignment">
                         <div class="first">
-                            <img class="img-responsive working-together" src="/static/images/working-togetherr.jpg" data-parallax='{"y": 30}' alt="">
+                            <img class="img-responsive working-together" src="/static/images/working-togetherr.jpg"
+                                data-parallax='{"y": 30}' alt="">
                         </div>
                         <div class="second">
                             <div class="mt">
                                 <h3 class="portfolio-title">We can help your agency stand out of the crowd</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                <p> There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia.</p>
+                                <p> There live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                                    of the
                                     Semantics, a large language ocean. </p>
                             </div>
                         </div>
@@ -253,36 +216,49 @@
                     <div class="row">
                         <div class="col-md-12 flex-alignment">
                             <div class="img-order">
-                                <img class="img-responsive" src="/static/images/talking-phone.jpg" data-parallax='{"y": 30}' alt="">
+                                <img class="img-responsive" src="/static/images/talking-phone.jpg"
+                                    data-parallax='{"y": 30}' alt="">
                             </div>
                             <div class="services">
                                 <div class="mt">
                                     <span class="move-on-small">
-                                    <h3 class="portfolio-title">Want to work with us? Get an aswesome website today.</h3>
-                                    <p class="portfolio-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. </p>
-                                </span>
+                                        <h3 class="portfolio-title">Want to work with us? Get an aswesome website today.
+                                        </h3>
+                                        <p class="portfolio-text">Far far away, behind the word mountains, far from the
+                                            countries Vokalia and Consonantia, there live the blind texts. Separated
+                                            they live in Bookmarksgrove right at the coast of the Semantics, a large
+                                            language ocean. </p>
+                                    </span>
                                     <div class="move-on-small-services">
-                                        <div class="box-services animate-box" data-animate-effect="fadeInLeft" style="opacity: 0">
-                                            <img class="svg" src="/static/images/icons/responsive.svg" alt="customize icon">
+                                        <div class="box-services animate-box" data-animate-effect="fadeInLeft"
+                                            style="opacity: 0">
+                                            <img class="svg" src="/static/images/icons/responsive.svg"
+                                                alt="customize icon">
                                             <div class="service-post">
                                                 <h4>Responsive on any device</h4>
-                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                                <p>Far far away, behind the word mountains, far from the countries
+                                                    Vokalia and
                                                     Consonantia, there live the blind texts. </p>
                                             </div>
                                         </div>
-                                        <div class="box-services animate-box" data-animate-effect="fadeInLeft" style="opacity: 0">
-                                            <img class="svg" src="/static/images/icons/customize.svg" alt="collect icon">
+                                        <div class="box-services animate-box" data-animate-effect="fadeInLeft"
+                                            style="opacity: 0">
+                                            <img class="svg" src="/static/images/icons/customize.svg"
+                                                alt="collect icon">
                                             <div class="service-post">
                                                 <h4>Very easy to customize</h4>
-                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                                <p>Far far away, behind the word mountains, far from the countries
+                                                    Vokalia and
                                                     Consonantia, there live the blind texts. </p>
                                             </div>
                                         </div>
-                                        <div class="box-services animate-box" data-animate-effect="fadeInLeft" style="opacity: 0">
+                                        <div class="box-services animate-box" data-animate-effect="fadeInLeft"
+                                            style="opacity: 0">
                                             <img class="svg" src="/static/images/icons/support.svg" alt="support icon">
                                             <div class="service-post">
                                                 <h4>Effective support</h4>
-                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                                <p>Far far away, behind the word mountains, far from the countries
+                                                    Vokalia and
                                                     Consonantia, there live the blind texts. </p>
                                             </div>
                                         </div>
@@ -375,11 +351,13 @@
 
 
 
+
         <section class="advertise">
             <div class="advertise-wrapper ">
                 <h3 class="advertise-heading">Pricing</h3>
                 <p class="advertise-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
                 </p>
             </div>
         </section>
@@ -396,13 +374,15 @@
                             <div class="price">$19</div>
                             <p class="desc">per user / month</p>
                             <div class="target-btn">
-                                <a href="#"><button class="custom-button triangular-button portofolio sign-up-link">Sign Up Now</button></a>
+                                <a href="#"><button class="custom-button triangular-button portofolio sign-up-link">Sign
+                                        Up Now</button></a>
                             </div>
                         </div>
 
 
                         <ul class="plan-features pricing-column">
-                            <li class="with-ticker"><strong>Unlimited</strong> projects, wireframes, mockups &amp; prototypes</li>
+                            <li class="with-ticker"><strong>Unlimited</strong> projects, wireframes, mockups &amp;
+                                prototypes</li>
                             <li class="with-ticker">Grids, guides and snapping</li>
                             <li class="with-ticker">Slack integration</li>
                             <li class="with-ticker">Public comments</li>
@@ -418,13 +398,15 @@
                             <div class="price">$19</div>
                             <p class="desc">per user / month</p>
                             <div class="target-btn">
-                                <a href="#"><button class=" most-poplaur-btn btn-p triangular-button sign-up-link">Sign Up Now</button></a>
+                                <a href="#"><button class=" most-poplaur-btn btn-p triangular-button sign-up-link">Sign
+                                        Up Now</button></a>
                             </div>
                         </div>
 
 
                         <ul class="plan-features pricing-column">
-                            <li class="with-ticker"><strong>Unlimited</strong> projects, wireframes, mockups &amp; prototypes</li>
+                            <li class="with-ticker"><strong>Unlimited</strong> projects, wireframes, mockups &amp;
+                                prototypes</li>
                             <li class="with-ticker">Grids, guides and snapping</li>
                             <li class="with-ticker">Slack integration</li>
                             <li class="with-ticker">Public comments</li>
@@ -438,13 +420,15 @@
                             <div class="price">$19</div>
                             <p class="desc">per user / month</p>
                             <div class="target-btn">
-                                <a href="#"><button class="custom-button triangular-button portofolio sign-up-link">Sign Up Now</button></a>
+                                <a href="#"><button class="custom-button triangular-button portofolio sign-up-link">Sign
+                                        Up Now</button></a>
                             </div>
                         </div>
 
 
                         <ul class="plan-features pricing-column">
-                            <li class="with-ticker"><strong>Unlimited</strong> projects, wireframes, mockups &amp; prototypes</li>
+                            <li class="with-ticker"><strong>Unlimited</strong> projects, wireframes, mockups &amp;
+                                prototypes</li>
                             <li class="with-ticker">Grids, guides and snapping</li>
                             <li class="with-ticker">Slack integration</li>
                             <li class="with-ticker">Public comments</li>
@@ -458,13 +442,15 @@
                             <div class="price">$19</div>
                             <p class="desc">per user / month</p>
                             <div class="target-btn ">
-                                <a href="#"><button class="custom-button triangular-button portofolio sign-up-link">Sign Up Now</button></a>
+                                <a href="#"><button class="custom-button triangular-button portofolio sign-up-link">Sign
+                                        Up Now</button></a>
                             </div>
                         </div>
 
 
                         <ul class="plan-features pricing-column">
-                            <li class="with-ticker"><strong>Unlimited</strong> projects, wireframes, mockups &amp; prototypes</li>
+                            <li class="with-ticker"><strong>Unlimited</strong> projects, wireframes, mockups &amp;
+                                prototypes</li>
                             <li class="with-ticker">Grids, guides and snapping</li>
                             <li class="with-ticker">Slack integration</li>
                             <li class="with-ticker">Public comments</li>
@@ -486,7 +472,8 @@
                 <h3 class="advertise-heading">Are we great or what? Yes, we are!
                 </h3>
                 <p class="advertise-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
                 </p>
             </div>
         </section>
@@ -495,35 +482,40 @@
             <div class="facts-content">
                 <div class="facts-card">
                     <div class="category-facts-wrapper">
-                        <span class="category-price counter js-counter" data-from="0" data-to="42" data-refresh-interval="2">42</span>
+                        <span class="category-price counter js-counter" data-from="0" data-to="42"
+                            data-refresh-interval="2">42</span>
                     </div>
                     <div class="category-text">Projects in Portfolio
                     </div>
                 </div>
                 <div class="facts-card">
                     <div class="category-facts-wrapper">
-                        <span class="category-price counter js-counter" data-from="0" data-to="25" data-refresh-interval="2">25</span>
+                        <span class="category-price counter js-counter" data-from="0" data-to="25"
+                            data-refresh-interval="2">25</span>
                     </div>
                     <div class="category-text">Team members
                     </div>
                 </div>
                 <div class="facts-card">
                     <div class="category-facts-wrapper">
-                        <span class="category-price counter js-counter" data-from="0" data-to="627" data-refresh-interval="2">627</span>
+                        <span class="category-price counter js-counter" data-from="0" data-to="627"
+                            data-refresh-interval="2">627</span>
                     </div>
                     <div class="category-text">Happy clients
                     </div>
                 </div>
                 <div class="facts-card">
                     <div class="category-facts-wrapper">
-                        <span class="category-price counter js-counter" data-from="0" data-to="21456" data-refresh-interval="2">21456</span>
+                        <span class="category-price counter js-counter" data-from="0" data-to="21456"
+                            data-refresh-interval="2">21456</span>
                     </div>
                     <div class="category-text">Lines of code written
                     </div>
                 </div>
                 <div class="facts-card">
                     <div class="category-facts-wrapper">
-                        <span class="category-price counter js-counter" data-from="0" data-to="365" data-refresh-interval="2">365</span>
+                        <span class="category-price counter js-counter" data-from="0" data-to="365"
+                            data-refresh-interval="2">365</span>
                     </div>
                     <div class="category-text">Hours of hard work
                     </div>
@@ -539,110 +531,17 @@
                         </div>
                         <div class="buy-maker-info hidden-sm hidden-md hidden-lg">
                             <h3 class="advertise-heading">Getting started</h3>
-                            <p>So easy to customize it, Maker can become your beautiful website. <br> Start today for just 30$.</p>
+                            <p>So easy to customize it, Maker can become your beautiful website. <br> Start today for
+                                just 30$.</p>
                         </div>
                         <div class="call-to-action">
-                            <a href="https://creativemarket.com/Dorin007/1659604-Maker-creative-agency-template" class="buy-now">Buy for only $30</a>
+                            <a href="https://creativemarket.com/Dorin007/1659604-Maker-creative-agency-template"
+                                class="buy-now">Buy for only $30</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </div>
-    <footer>
-        <div class="container">
-            <div class="row">
 
-                <div>
-                    <div class="col-xs-12 col-sm-4 col-md-2 pages">
-                        <h6>Sitemap</h6>
-                        <p><a href="#">
-                                About Us
-                            </a></p>
-                        <p><a href="#">
-                               Guidance
-                            </a></p>
-                        <p><a href="#">
-                                Terms &amp; conditions
-                            </a></p>
-                        <p><a href="#">
-                                Courses
-                            </a></p>
-                        <p><a href="#">
-                                Contact Us
-                            </a></p>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4 col-md-2 connect">
-                        <h6>Connect</h6>
-                        <p><a href="#">
-                            Linkedin
-                            </a></p>
-                        <p><a href="#">
-                                Twitter
-                             </a></p>
-                        <p><a href="#">
-                                Instagram
-                             </a></p>
-                        <p><a href="#">
-                               Github
-                             </a></p>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4 col-md-4 address">
-                        <h6>Address</h6>
-                        <p><a href="Dsvv.ac.in"></a></p>
-                        <p>9057474786</p>
-                        <p>Haridwar, Uttarakhand</p>
-
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-4  newsletter">
-                        <h6>Newsletter</h6>
-                        <p>Subscribe to our newsletter to get fresh Content.</p>
-
-                        <form action="#" id="sign-up-form">
-                            <input class="email" type="text" placeholder="Type your email address">
-                            <div><span class="sign-text">Thank you for subscribing!</span>Sign Up</div>
-                        </form>
-
-                    </div>
-                </div>
-
-
-                <div class="col-xs-12 col-sm-12">
-                    <p class="copy">Copyright &copy;2023 Dsvv. All rights reserved. </p>
-                </div>
-
-            </div>
-        </div>
-    </footer>
-    <!-- Jquery -->
-    <script src="/static/js/jquery.js"></script>
-    <!-- jQuery End -->
-    <!-- Latest compiled and minified JavaScript for Bootstrap -->
-    <script src="/static/js/bootstrap.min.js"></script>
-    <!-- Latest compiled and minified JavaScript for Bootstrap -->
-    <script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous"></script>
-    <!-- End Bootstrap JS -->
-    <!--build:js js/main.min.js -->
-    <script src="/static/js/main.js"></script>
-    <!-- endbuild -->
-    <script src="/static/js/slick.min.js"></script>
-    <!-- waypoints -->
-    <script src="/static/js/jquery.waypoints.js"></script>
-    <!-- countTO -->
-    <script src="/static/js/jquery.countTo.js"></script>
-
-    <script src="/static/js/slick.min.js"></script>
-    <script src="/static/js/lib/jquery.scrollIntoView.js"></script>
-    <script src="/static/js/lib/jquery.easing.1.3.js"></script>
-    <script src="/static/js/lib/jquery.parallax-scroll.js"></script>
-    <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenLite.min.js"></script>
-    <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/CSSPlugin.min.js"></script>
-</body>
-
-
-<!-- Mirrored from maker.dragosisme.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 07:04:46 GMT -->
-</html>
+    {% endblock %}

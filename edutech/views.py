@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request,'indexmy.html')
+    return render(request,'index.html')
 
 def course(request):
     return render(request,'course.html')
