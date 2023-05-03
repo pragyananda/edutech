@@ -462,7 +462,7 @@ header .navbar-toggle {
 
 header .homepage-hero-module {
     background-color: #fff;
-    background: url("/static/images/slide-2-cover.jpg") no-repeat center top fixed;
+    background: url("/static/images/back.jpg");
     background-size: cover;
     border-right: none;
     border-left: none
